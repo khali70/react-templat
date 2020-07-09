@@ -1,14 +1,16 @@
 import React from "react";
 import "./portofolio.css";
 function Portofolio({ imgs = [] }) {
-  const toggle = (e) => {
-    //TODO toggle the avtive btn
-    console.log(e);
-    // if (non_active_btn !== btn) {
-    //   non_active_btn.classList.remove("active");
-    // } else {
-    //   btn.classList.add("active");
-    // }
+  const toggle = ({ currentTarget }) => {
+    let target = currentTarget;
+    const children = [...currentTarget.parentNode.children];
+    children.forEach((item) => {
+      if (item !== target) {
+        item.classList.remove("active");
+      } else {
+        item.classList.add("active");
+      }
+    });
   };
   return (
     <div className="portfolio">

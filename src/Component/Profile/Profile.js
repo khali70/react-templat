@@ -43,7 +43,6 @@ function Profile() {
           </ul>
         </div>
       </div>
-      {/* TODO add skills to the Data.JSON */}
       <div className="skills">
         <h2 className="skills-title">
           Some <span>skills</span>

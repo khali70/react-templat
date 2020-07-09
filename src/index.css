@@ -17,3 +17,7 @@ body {
 .margin-bottom {
   margin-bottom: 20px;
 }
+::selection {
+  color: aliceblue;
+  background-color: coral;
+}
