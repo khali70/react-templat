@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-templat/static/css/main.68710063.chunk.css",
+    "main.js": "/react-templat/static/js/main.5e50e9d4.chunk.js",
+    "main.js.map": "/react-templat/static/js/main.5e50e9d4.chunk.js.map",
+    "runtime-main.js": "/react-templat/static/js/runtime-main.dab48f1c.js",
+    "runtime-main.js.map": "/react-templat/static/js/runtime-main.dab48f1c.js.map",
+    "static/js/2.cdd7746d.chunk.js": "/react-templat/static/js/2.cdd7746d.chunk.js",
+    "static/js/2.cdd7746d.chunk.js.map": "/react-templat/static/js/2.cdd7746d.chunk.js.map",
+    "index.html": "/react-templat/index.html",
+    "precache-manifest.fd133ac7b040875bd726466563be2f43.js": "/react-templat/precache-manifest.fd133ac7b040875bd726466563be2f43.js",
+    "service-worker.js": "/react-templat/service-worker.js",
+    "static/css/main.68710063.chunk.css.map": "/react-templat/static/css/main.68710063.chunk.css.map",
+    "static/js/2.cdd7746d.chunk.js.LICENSE.txt": "/react-templat/static/js/2.cdd7746d.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/react-templat/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/home-bg.jpg": "/react-templat/static/media/home-bg.6b1d7b92.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dab48f1c.js",
+    "static/js/2.cdd7746d.chunk.js",
+    "static/css/main.68710063.chunk.css",
+    "static/js/main.5e50e9d4.chunk.js"
+  ]
+}
