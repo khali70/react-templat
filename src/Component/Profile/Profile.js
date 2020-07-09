@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./Profile.css";
 function Profile() {
+  const [Skills, setSkill] = useState([]);
+  useEffect(() => {
+    axios.get("data/Data.JSON").then((res) => {
+      setSkill(res.data.skills);
+    });
+  }, []);
   return (
     <div className="profile_skills">
       <div className="container">
@@ -45,29 +52,16 @@ function Profile() {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
           praesentium blanditiis esse cupiditate, omnis similique.
         </p>
-        <div className="bar">
-          <span className="title">Bootstrap</span>
-          <span className="perc">100%</span>
-          <div className="parent">
-            <span className="sp1"></span>
-          </div>
-        </div>
-
-        <div className="bar">
-          <span className="title">CSS3</span>
-          <span className="perc">90%</span>
-          <div className="parent">
-            <span className="sp2"></span>
-          </div>
-        </div>
-
-        <div className="bar">
-          <span className="title">Photoshop</span>
-          <span className="perc">80%</span>
-          <div className="parent">
-            <span className="sp3"></span>
-          </div>
-        </div>
+        {Skills.length > 0 &&
+          Skills.map((item, index) => (
+            <div className="bar" key={item.id}>
+              <span className="title">{item.title}</span>
+              <span className="perc">{item.perentage}</span>
+              <div className="parent">
+                <span style={{ width: item.perentage }}></span>
+              </div>
+            </div>
+          ))}
       </div>
     </div>
   );

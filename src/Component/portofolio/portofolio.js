@@ -62,7 +62,7 @@ function Portofolio({ imgs = [] }) {
         {imgs.length &&
           imgs.map((item) => (
             <div key={item.id}>
-              <img src={item.image} alt="" />
+              <img src={`/react-templat${item.image}`} alt="" />
               <p className="overlay">
                 <span>Show Image</span>
               </p>

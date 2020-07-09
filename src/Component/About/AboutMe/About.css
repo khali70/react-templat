@@ -5,7 +5,7 @@
 */
 .creative {
   height: 500px;
-  background: url("/images/creative/about-bg.jpg");
+  background: url("/react-templat/images/creative/about-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

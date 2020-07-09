@@ -11,29 +11,31 @@ function App() {
     <BrowserRouter>
       <Nav />
       <Route exact path="/" component={Main} />
+      <Route path="/react-templat" component={Main} />
       <Route path="/Contact" component={Contact} />
       <Footer />
     </BrowserRouter>
   );
 }
 /*
-done-Create All Components place holder
-doneCreat imge Folder
-done-Use Router lib
-donereact-Router reacr-router-dom
-done fonst awosame
-done install libs.
-done Create JSON file for Data
+/react-templat
+Create All Components place holder
+Creat imge Folder
+Use Router lib
+react-Router reacr-router-dom
+fonst awosame
+install libs.
+Create JSON file for Data
 ====== Components ============  
-done"Navbar" 
-done"Home" 
-done"Works" 
-done"Profile" 
-done"portofolio" 
-TODO"About" 
-TODO"Social Media" 
-TODO"Footer" 
-TODO"Contact"}
+"Navbar" 
+"Home" 
+"Works" 
+"Profile" 
+"portofolio" 
+"About" 
+"Social Media" 
+"Footer" 
+"Contact"}
 TODO scroll "react-scroll": "^1.7.16"
 
 

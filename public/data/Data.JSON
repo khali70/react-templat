@@ -73,5 +73,22 @@
       "title": "Pin Me on",
       "body": "Social Pinterest"
     }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "title": "Bootstrap",
+      "perentage": "100%"
+    },
+    {
+      "id": "2",
+      "title": "CSS3",
+      "perentage": "90%"
+    },
+    {
+      "id": "3",
+      "title": "photoshop",
+      "perentage": "80%"
+    }
   ]
 }
