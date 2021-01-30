@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # [Preview](https://khali70.github.io/react-templat/)
 
 this is a react project form [hamza Nabil channal](https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g)

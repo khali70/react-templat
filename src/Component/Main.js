@@ -5,15 +5,14 @@ import Profile from "./Profile/Profile";
 import About from "./About/AboutMe/About";
 import SocialMedia from "./About/Social-Media/Social-Media";
 import Contact from "./Contact/Contact";
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 function Main() {
   const [PortofolioItem, setPortofolioItem] = useState([]);
   useEffect(() => {
-    axios.get("data/Data.JSON").then((res) => {
-      setPortofolioItem(res.data.portfolio);
-    });
+    // axios.get("data/Data.JSON").then((res) => {
+    //   setPortofolioItem(res.data.portfolio);
+    // });
   }, []);
   return (
     <div>

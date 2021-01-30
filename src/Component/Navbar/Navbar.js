@@ -12,19 +12,19 @@ function Navbar() {
           </div>
           <ul className="ul-list">
             <li className="list-item">
-              <Link to="/">Home</Link>
+              <Link to="/react-templat">Home</Link>
             </li>
             <li className="list-item">
-              <Link to="">Work</Link>
+              <Link to="/react-templat">Work</Link>
             </li>
             <li className="list-item">
-              <Link to="">Portfolio</Link>
+              <Link to="/react-templat">Portfolio</Link>
             </li>
             <li className="list-item">
-              <Link to="">Resume</Link>
+              <Link to="/react-templat">Resume</Link>
             </li>
             <li className="list-item">
-              <Link to="">About</Link>
+              <Link to="/react-templat">About</Link>
             </li>
             <li className="list-item">
               <Link to="/Contact">Contact</Link>

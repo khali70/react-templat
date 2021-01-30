@@ -5,19 +5,18 @@ import Main from "./Component/Main";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
 // import "./text.css";
-
+//basename="react-templat/"
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="react-templat/">
       <Nav />
       <Route exact path="/" component={Main} />
-      <Route path="/react-templat" component={Main} />
       <Route path="/Contact" component={Contact} />
       <Footer />
     </BrowserRouter>
   );
 }
-/*
+/*TODO rwact router root path
 /react-templat
 Create All Components place holder
 Creat imge Folder

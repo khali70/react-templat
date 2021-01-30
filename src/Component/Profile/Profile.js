@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import "./Profile.css";
 function Profile() {
   const [Skills, setSkill] = useState([]);
   useEffect(() => {
-    axios.get("data/Data.JSON").then((res) => {
-      setSkill(res.data.skills);
-    });
+    // axios.get("data/Data.JSON").then((res) => {
+    //   setSkill(res.data.skills);
+    // });
   }, []);
   return (
     <div className="profile_skills">

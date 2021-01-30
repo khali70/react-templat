@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import "./Social-Media.css";
 
 function Social_Media() {
   const [Social, setSocial] = useState([]);
 
   useEffect(() => {
-    axios.get("data/Data.JSON").then((res) => {
-      setSocial(res.data.social);
-    });
+    // axios.get("data/Data.JSON").then((res) => {
+    //   setSocial(res.data.social);
+    // });
   }, []);
   const social = Social;
   const type = ["face", "twitter", "pin"];
